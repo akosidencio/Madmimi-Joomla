@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="user">
+	<name>Madmimi - Joomla Integration Plugin</name>
+	<author>Dennis Paler</author>
+	<creationDate>Nov. 2014</creationDate>
+	<authorEmail>dpaler@shockwebstudio.com</authorEmail>
+	<authorUrl>www.shockwebstudio.com</authorUrl>
+	<version>1.0</version>
+	<description>Madmimi integration plugin for Joomla! Automatically add register user to a Madmimi list</description>
+	<files>
+		<filename plugin="jomimi">jomimi.php</filename>
+		<folder>madmimi-api</folder>
+	</files>
+    <languages folder="language">
+		<language tag="en-GB">en-GB.plg_user_jomimi.ini</language>
+		<language tag="en-GB">en-GB.plg_user_jomimi.sys.ini</language>
+	</languages>
+     <config>
+		<fields name="params">
+            <fieldset name="basic">
+                 
+				<field name="email" type="text"
+					class="input-xlarge"
+					label="PLG_USER_JOMIMI_FIELD_EMAIL"
+                    description="PLG_USER_JOMIMI_FIELD_EMAIL_DESC"
+				/> 
+				 
+                <field name="apikey" type="text"
+					class="input-xlarge"
+					label="PLG_USER_JOMIMI_FIELD_APIKEY"
+                    description="PLG_USER_JOMIMI_FIELD_APIKEY_DESC"
+				/>
+
+                <field name="list" type="text"
+                       label="PLG_USER_JOMIMI_FIELD_LIST"
+                       description="PLG_USER_JOMIMI_FIELD_LIST_DESC" />
+
+             </fieldset>
+        </fields>
+	</config>
+</extension>

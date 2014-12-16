@@ -1,0 +1,8 @@
+;-------------------------------------------------------------
+; Madmimi - Joomla integration
+; Copyright (C) 2010 - 2014 ThemeXpert. All rights reserved.
+; License http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
+;-------------------------------------------------------------
+
+PLG_USER_JOMIMI = "Madmimi - Joomla Integration"
+PLG_USER_JOMIMI_XML_DESCRIPTION = "Madmimi Joomla integration plugin. Automatically add registered user to a Madmimi list"
