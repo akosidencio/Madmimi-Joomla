@@ -39,7 +39,7 @@ class plgUserJomimi extends JPlugin
 			
 			
             // Include Madmimi API
-            require JPATH_SITE . '/plugins/user/jomimi/madmimi-api/MadMimi.class.php';
+            
             $mailer = new Madmimi($email,$apikey);
 
             $user = array(
